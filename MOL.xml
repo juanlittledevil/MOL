@@ -1,0 +1,3214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/juan/KiCad/projects/DEGVCA/DEGVCA.kicad_sch</source>
+    <date>2023 December 11, Monday 09:53:17</date>
+    <tool>Eeschema 7.0.1-0</tool>
+    <textvar name="Net_pow_neg">pow-neg</textvar>
+    <textvar name="Net_pow_pos">pow-pos</textvar>
+    <textvar name="org_name">Scruffy Cat Studios</textvar>
+    <textvar name="org_url">http://www.scruffycatstudios.com</textvar>
+    <textvar name="project_name">DEGVCA</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DEGVCA</title>
+        <company>Scruffy Cat Studios</company>
+        <rev>001</rev>
+        <date/>
+        <source>DEGVCA.kicad_sch</source>
+        <comment number="1" value="http://www.scruffycatstudios.com"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_supply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>fastest_ADSR_in_the_west.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>dual_OTA_VCA.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D19">
+      <value>LED A</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="*SCS" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da70eb51-5f14-4dab-aea5-de1a6f553772</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>LED B</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="*SCS" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c664c7b-bc21-40eb-b67f-a1489dc4337f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Gate In A</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>982df0af-ce1a-45ba-b26e-06aa3a447063</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Gate In B</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef7608d2-6be2-4758-aa18-0cbd7ba28310</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Audio In A</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d0285c6-8a64-4ae0-a73b-727576735b92</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Audio In B</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8600c33-f002-4902-b1be-86197b5cea5c</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Audio Out A</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>649fd912-7d4e-48c6-a270-ef91b3650302</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Audio Out B</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fe3ffd0-06e6-4e6a-acea-ae0185385ff7</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Inv CV Out A (10v - 0v)</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd274376-270e-4557-b912-9fa8f63153de</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Inv CV Out B (10v - 0v)</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e365b17-908d-4fcc-8d7e-17c56d3055ed</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>CV Out A (0v - 10v)</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c359786-30af-4339-bea9-f524b70d8f8c</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>CV Out B (0v - 10v)</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0378991a-20e7-44cc-bb9e-6e0a4345d899</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>CV In A (0v - 5v)</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7c1a2df-54d3-4290-804d-ea75311552c9</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>CV In B (0v - 5v)</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecafeac8-350a-4860-b22f-a73f5b5c41a4</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Re-Trigger A</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>578bcf3d-235d-4a2e-b312-36758b510786</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Re-Trigger B</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e348d6fa-48c6-4a61-bb45-c1e2c4842eb2</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>CV In A (0v - 10v)</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>932bb1ac-7292-4453-ba46-95874debe2ba</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>CV In B (0v - 10v)</value>
+      <footprint>*SCS_ScruffyCat:Jack_3.5mm_QingPu_thonk-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="Audio_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>934ed328-d115-457d-954c-561016ea14a7</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Screw Hole</value>
+      <footprint>*SCS_ScruffyCat:ScrewHole_Oval</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2f34271-4dfe-4eb8-823e-e43aec37bc0a</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>Screw Hole</value>
+      <footprint>*SCS_ScruffyCat:ScrewHole_Oval</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feea0e59-19e8-41fd-a3a7-612e663bfb9b</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>Screw Hole</value>
+      <footprint>*SCS_ScruffyCat:ScrewHole_Oval</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>967cc60c-dad7-40e8-bdbd-11c10e093e57</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>Screw Hole</value>
+      <footprint>*SCS_ScruffyCat:ScrewHole_Oval</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b16702de-75f7-4533-80a8-662fe8bb700a</tstamps>
+    </comp>
+    <comp ref="R64">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19410f97-9437-4c5d-a536-6c8976a23261</tstamps>
+    </comp>
+    <comp ref="R65">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b8a1454-e71f-4231-908f-93108f998838</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>Attack A</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fb013ea-137d-4916-92a2-d9e98f0eadb2</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>Decay A</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>621d466a-655d-4c93-889c-2a20fdcbb88c</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>Sustain A</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c66c5bb0-4a07-4bc6-a6b3-dcff7a95e415</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>Decay A</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d7c0aa6-2270-4a51-b86f-f0526affc299</tstamps>
+    </comp>
+    <comp ref="RV5">
+      <value>Attack B</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bda85904-62d8-4cac-9d89-10c68b064568</tstamps>
+    </comp>
+    <comp ref="RV6">
+      <value>Decay B</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a632fb8a-6d03-4de3-bf66-49df0bbb2ada</tstamps>
+    </comp>
+    <comp ref="RV7">
+      <value>Sustain B</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1828c341-003b-4f07-8b97-0c0cc458311c</tstamps>
+    </comp>
+    <comp ref="RV8">
+      <value>Decay A</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8659cdd1-319e-4c20-b940-87de044a4a52</tstamps>
+    </comp>
+    <comp ref="RV9">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec83e145-71e1-427c-9169-451f2d7721aa</tstamps>
+    </comp>
+    <comp ref="RV10">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8e47e24-6a88-4fca-bdc6-fa80944bc537</tstamps>
+    </comp>
+    <comp ref="RV11">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5631d5aa-8cce-42a9-b3c4-f0c2096c4e51</tstamps>
+    </comp>
+    <comp ref="RV12">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <libsource lib="*SCS" part="R_Potentiometer-THL" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b417d77e-3ed4-41a3-b99f-33a699690a5e</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_LED</value>
+      <footprint>*SCS_ScruffyCat:SW_PushButton_LED_E-Type-A</footprint>
+      <libsource lib="Switch" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Push button switch with LED, generic"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dece5c6d-25aa-4e2b-8c8d-831c3b9d4f56</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push_LED</value>
+      <footprint>*SCS_ScruffyCat:SW_PushButton_LED_E-Type-A</footprint>
+      <libsource lib="Switch" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Push button switch with LED, generic"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dbb7d9d-b36b-49df-94c7-9435f270ff3f</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>Inv Offset A</value>
+      <footprint>*SCS_ScruffyCat:SW_Toggle_Blue_wSlots</footprint>
+      <libsource lib="*SCS" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81856354-8e18-47a1-b207-7b7818dba98d</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>Inv Offset B</value>
+      <footprint>*SCS_ScruffyCat:SW_Toggle_Blue_wSlots</footprint>
+      <libsource lib="*SCS" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DEGVCA.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca1196f5-41d3-4ff7-8423-2281f2c4b26e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>10e2cc9b-a6b0-406e-a688-e81f7711e89a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>17f1d315-b2f4-4a39-87f2-067fbe4aaeb9</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>bd70999c-9f0d-4fcd-a638-9d3cc7675041</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>37554498-1b93-4d10-bbb2-5e74eec07c65</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>c9ddff68-9fc9-4590-b3ce-311e7b047e43</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>09744769-61b3-4295-b003-b0b226851597</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>25e5ea9c-2393-4404-9426-7cfcf3e65f83</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>1577c2ea-9bc1-4674-90d4-61aa38f55be8</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>1cf21d27-ecc0-43ad-934c-02e2d8dc770f</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>86d72b15-79f2-47a9-be5e-9563a6b2410f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Schottky</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D_Schottky-THL" description="Schottky diode"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>6f07a833-a00d-4871-984f-8c87b8a1c4af</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Schottky</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D_Schottky-THL" description="Schottky diode"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>3442799b-a050-476a-87d1-caea71b934ae</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>FerriteBead</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>af612a21-5bd4-4c84-b87d-1ab47fcfa5f7</tstamps>
+    </comp>
+    <comp ref="FB2">
+      <value>FerriteBead</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>811d86ad-999a-4d03-9bfe-cd01fbd7145d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>EuroRack Power</value>
+      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>0bc27081-d051-418f-9b39-e500e1ccc71b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TL074</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>adcda51f-5be2-4b80-bffd-36bef41e291f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM13700</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm13700.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM13700" description="Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"/>
+      <property name="ki_keywords" value="operational transconductance amplifier OTA"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>6ade1f91-dce9-47dc-84f5-41725c7667b3</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TL074</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>83878b85-3de1-4f1e-8b23-5cf993007fd9</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TL074</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="*SCS" part="TL074" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <sheetpath names="/Power Supply/" tstamps="/9df777e3-8bfa-4746-be1b-0755d7f58ee7/"/>
+      <tstamps>e47a0936-04d4-4802-b91b-4207892ca4c9</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>d919fa2c-eb24-49d6-acd8-e1bc08d2bf9b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>5b1f3140-edc9-4a3e-828a-0c10ed58cc5c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>47uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="*SCS" part="C_Polarized_THL" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>c8e92cf5-049a-49fd-a57b-5e710d6af798</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>596c3d42-2de1-4b00-adff-2c1dc0a01c05</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>f9360a53-2aaf-456e-b094-3126c9ab1cec</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>47uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="*SCS" part="C_Polarized_THL" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>e0a96579-2c89-4f65-8940-c06e68347d2f</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>550bf8a9-5da3-4389-aa1c-ef2db4b8496c</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>b1954198-702d-478d-a905-795ab67f30ff</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>07af2e78-d57e-403d-9b3d-7ff71bcb0082</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>62fe98b1-1a4d-46f6-98b8-7c89738a5b8f</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>18263cf3-e438-4e2d-9594-a6c1271d4798</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>628a7f9f-ea9e-4dd4-b84a-40b9ecf4c092</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>d2d6dfbd-9418-46f4-b96e-c499b80e0d72</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>566ddfe0-b55c-41a3-a4cc-771eb88c3e7b</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>7f7b9ded-b305-43b0-9da6-44add303c54a</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>c473759c-22af-4c1b-a2aa-4d4e3994120d</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>602a2c20-69e0-425e-8e70-55cc624d5426</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>367a6ff7-82b0-4a8e-b390-d8771767b22a</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>b998e918-f65f-4ebd-82ad-71a1505cba43</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>c754e1c4-cc36-4f4a-9f09-0deb6812b718</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>f87322fc-a396-4103-92c8-409b5ee82980</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>c1b06451-f0c7-4aa9-9d06-ad503ad52ce5</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>e41cba82-23ec-455f-8d64-1671027be220</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>d3e8bf11-4cf8-4917-970e-2f220190eaf5</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>10baff84-89a8-4d56-a040-c63d26df8bd1</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>8a2c44de-ec7e-4ce2-a8f3-a0f442d26db7</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>d0b9940f-40a1-422f-ad8f-941a18a601f9</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>44bbf20a-29ca-4e8c-b8a5-160e13c90d7e</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>720a4269-96b4-4b57-95b7-0167a495b177</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>7aa8e100-149a-41a8-88fd-341ef332d874</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>847250f9-d309-4f60-9cb0-2584702caae6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>99d71caa-9a90-499c-9e17-91fa616fe55c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>c6186f4e-7e7a-4a96-946c-c738e9f514dd</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>7b79c5cc-85fb-4b2c-8b8c-73392f09decb</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>2a81fa23-ea3f-4641-9107-61c009fb4c99</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>c60e05c1-176b-4337-a617-a4358607ac8d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>120c2efd-05eb-4b65-be3e-e7171184e64b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>335f009e-8102-4ec5-a7d2-cd53b5ee0bd4</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>a03f8c02-6cd0-4a3a-bd02-99797b0509f1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>bd994cb3-8f3d-4116-8f22-2aa8d79f6da3</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>89df2b43-c03e-4406-a54a-edb8fc19434a</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>89ef798e-ead2-4fc8-928c-9f944ec72e31</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>39k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>2e7852ef-8e78-4590-a462-3945899f9942</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>150k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>1202dadb-1aca-4d26-ac00-1c4f4d85f567</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>cfc95d01-9289-43f9-aa24-b19d655d8006</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>eb5e8091-1eb1-41f3-9b8d-5d353767f8b6</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>fa96cbe7-2d34-461e-bef1-3ea03538d67c</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>33a8e850-435e-4b4e-a22d-6c22dbcf2bd3</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>9d1c1aa0-0427-415a-bcc4-ee9308e405ab</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>3dda1a87-5d2d-4402-b0f6-a49a374e7999</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>9afb3305-2d73-4aed-a625-f5d674d97811</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>158006be-58a7-47f0-9d99-41b12d22d296</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>0c7cf14b-ba34-45c0-a1c6-ee6260abe908</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>39k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>79ae82d7-5fa9-48ef-a09e-12d295917eb5</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>150k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>18e40c74-de21-462f-bf6e-9b44853d051d</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>9a710028-c224-463b-bb81-b2812574fcb2</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>ab336ed2-3ebb-4fb8-b44f-b8a6acd2d191</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>147b671f-b648-4b21-a06f-9a69729034b1</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>f7a0da4b-f67e-4d64-8c8b-b5f49647d8a1</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>68k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>3b1eae9c-513c-426d-b550-e5b4353e76d6</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>93d7d288-bedd-4394-916d-4da8ae5940dd</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>470k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>01393ab8-98fe-4f65-a957-e4ef14b07c1b</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>330k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>583d5d75-e8d8-41be-a6de-5cec67fb4b00</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>4d18bf78-ac1c-4133-af64-a996db99e792</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>23202e28-35dd-4768-8638-70b5b53fad51</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>31710468-b8ce-4b86-acea-29eadd197c7c</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>648988ac-f9cc-4dbd-970b-b42576f5d310</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>3d64bece-fa28-4921-9076-a04abc5304ce</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>2880af7e-c731-47b0-90bb-14835bc444af</tstamps>
+    </comp>
+    <comp ref="R58">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>19fba041-da63-4f46-abe5-81136b33c2c1</tstamps>
+    </comp>
+    <comp ref="R59">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>865335c1-1848-4872-bedb-12e6c94f2899</tstamps>
+    </comp>
+    <comp ref="R60">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>4e934d47-dbdb-411e-9d86-bf7061ecb666</tstamps>
+    </comp>
+    <comp ref="R61">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>d33317ce-3836-4475-adfb-496a33a3a19d</tstamps>
+    </comp>
+    <comp ref="R62">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>0fcfc032-55c9-4d10-9ec7-d0160a1b9e5a</tstamps>
+    </comp>
+    <comp ref="REF_ADJ_A1">
+      <value>5k</value>
+      <footprint>*SCS_ScruffyCat:Potentiometer_Trim_Vertical_THL</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>6fc549da-d080-4235-866d-96b8e76091c1</tstamps>
+    </comp>
+    <comp ref="TP1-(5v)1">
+      <value>TestPoint</value>
+      <footprint>Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>98ebf463-05de-41a4-972d-62720a09cfb8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM556</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm556.pdf</datasheet>
+      <libsource lib="*SCS" part="LM556" description="Dual Timer, DIP-14/SOIC-14"/>
+      <property name="Sheetname" value="Fastest ADSR in the West"/>
+      <property name="Sheetfile" value="fastest_ADSR_in_the_west.kicad_sch"/>
+      <property name="ki_description" value="Dual Timer, DIP-14/SOIC-14"/>
+      <property name="ki_keywords" value="dual timer"/>
+      <sheetpath names="/Fastest ADSR in the West/" tstamps="/e81a7624-5cbe-47a3-b6e0-46c6b67046fa/"/>
+      <tstamps>3f187bb6-88f4-4024-bdf6-5ae2ee0410ae 182a3469-484e-4c1e-aa91-09c6432a9b70</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>745a8b5c-6766-41b8-bf67-fce64c361fb7</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>df780dce-31ed-45ca-8fbc-7f789887a82a</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>35bfd7bf-afdd-482f-9fc7-2921a07f74e8</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>85fbdbfb-6526-4c2b-affb-502561810b4f</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1u</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>796f7c42-825f-40e9-be0b-99796d343d7a</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1u</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="*SCS" part="C-THL" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>5774432e-4097-4f82-a576-264dcefde9ef</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>0e1eaf38-e8c4-4e88-b2c7-0ce9070e5deb</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="*SCS" part="D-THL" description="Diode"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>5d36d4f6-fdc3-42b5-9ae6-dac05cc699b8</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>0cbaa63a-e4b3-4662-9529-378aab84f707</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>2dca0159-02e4-43eb-b50c-885549b4dcf0</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>a62ca8b1-8fe0-49ff-b848-ffcc576370c0</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>e8be32f6-3bfe-4bc4-bb5b-5c46dbb69f66</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>e8f0117e-5b41-40bc-a3df-58bab3925f36</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>8c6e2088-bb61-431d-b538-584d42f7dcee</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>36k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>28440996-064a-4403-8075-f3982ade202b</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>6.8k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>c106a4ff-3392-4c0b-8568-37e54f168f89</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>ec908bf1-3fb5-4b67-9ac1-373f0f3bb9d3</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>33k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>29b72a5c-3997-40b8-91e4-fca807739af0</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>330k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>8904df23-4881-449c-94a5-ceb264537b86</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>cd2371ee-737d-4c9c-9866-4494e889d942</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>3d6e8556-3c55-4020-89c3-c38264aad64c</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>8a6d4733-ce8d-4652-85bc-3ab832e43313</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>330k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>5f60b307-b7b9-4e38-b048-052159c117e8</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>33k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>d328b390-e96e-4ee3-979e-cb644b1550af</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>6.8k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>9a593ab5-e705-43ee-af6d-36ed07e14468</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>4d49102d-229e-4450-8448-79dbc8e28c55</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>36k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>bc4e646a-8cea-4597-94d6-1f5bd1afd9fd</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>c83a4488-5303-4b51-86b6-f58a2de007b1</tstamps>
+    </comp>
+    <comp ref="R63">
+      <value>330k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>567ddbb5-0e2a-46f4-9f4a-65f33a504c03</tstamps>
+    </comp>
+    <comp ref="R66">
+      <value>330k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>18d942da-a008-48b0-a831-e2befd8e1dca</tstamps>
+    </comp>
+    <comp ref="R67">
+      <value>330k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>fc081800-b97f-4801-a6cf-1066d73c7a2a</tstamps>
+    </comp>
+    <comp ref="R68">
+      <value>330k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>0cdedc2f-79e5-4258-85e9-4ed1dd3a0f34</tstamps>
+    </comp>
+    <comp ref="R69">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>8442e08e-7f0b-44f6-b449-929b395ca164</tstamps>
+    </comp>
+    <comp ref="R70">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>d8a560bf-2a74-4631-82d2-cc6769a0b516</tstamps>
+    </comp>
+    <comp ref="R71">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>3efd8a86-a92c-4ca5-814c-2b494f82a259</tstamps>
+    </comp>
+    <comp ref="R72">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>fbca16e9-e403-476b-8ba9-5f3708699e31</tstamps>
+    </comp>
+    <comp ref="R73">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>5f34992c-e950-47bc-8242-e2bbc9eb9e25</tstamps>
+    </comp>
+    <comp ref="R74">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="*SCS" part="R-THL" description="Resistor"/>
+      <property name="Sheetname" value="Dual OTA VCA"/>
+      <property name="Sheetfile" value="dual_OTA_VCA.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual OTA VCA/" tstamps="/d3aec11f-f9d9-475f-b3fb-74d5cfb76e8a/"/>
+      <tstamps>83800f50-e8cb-4d00-8b4a-cbb1f5708b5c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="*SCS" part="Audio_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Audio_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="C-THL">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="C_Polarized_THL">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_THL</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="D-THL">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint">*SCS_ScruffyCat:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="D_Schottky-THL">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky-THL</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="LM556">
+      <description>Dual Timer, DIP-14/SOIC-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm556.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM556</field>
+        <field name="Footprint">Package_DIP:DIP-14_W7.62mm_Socket</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm556.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIS" type="input"/>
+        <pin num="2" name="THR" type="input"/>
+        <pin num="3" name="CV" type="input"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="Q" type="output"/>
+        <pin num="6" name="TR" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="TR" type="input"/>
+        <pin num="9" name="Q" type="output"/>
+        <pin num="10" name="R" type="input"/>
+        <pin num="11" name="CV" type="input"/>
+        <pin num="12" name="THR" type="input"/>
+        <pin num="13" name="DIS" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="R-THL">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="R_Potentiometer-THL">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Footprint">*SCS_ScruffyCat:SW_Toggle_Blue_wSlots</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="*SCS" part="TL074">
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL074</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM13700">
+      <description>Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm13700.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM13700</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm13700.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="DIODE_BIAS" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="" type="output"/>
+        <pin num="6" name="V-" type="power_in"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="output"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="V+" type="power_in"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="+" type="input"/>
+        <pin num="15" name="DIODE_BIAS" type="input"/>
+        <pin num="16" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="TL074">
+      <description>Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl071.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL074</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl071.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Trim">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Trim</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_LED">
+      <description>Push button switch with LED, generic</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3906">
+      <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3906</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC547">
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="*SCS">
+      <uri>/Users/juan/KiCad/libraries/ScruffyCat/ScruffyCat_Globals.kicad_sym</uri>
+    </library>
+    <library logical="Amplifier_Operational">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="Q10" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="11" pinfunction="V+" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="-12V">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="FB2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="V-" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="11" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="3" name="/5.4v">
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Dual OTA VCA/Audio_In_A">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pintype="passive"/>
+      <node ref="J5" pin="3" pintype="passive"/>
+    </net>
+    <net code="5" name="/Dual OTA VCA/Audio_In_B">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/Dual OTA VCA/Audio_LED_A">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R69" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/Dual OTA VCA/Audio_LED_B">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R70" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/Dual OTA VCA/Audio_Out_A">
+      <node ref="J6" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/Dual OTA VCA/Audio_Out_B">
+      <node ref="J7" pin="2" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/Dual OTA VCA/CV_In_5v_A">
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="RV9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/Dual OTA VCA/CV_In_5v_B">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="RV10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/Dual OTA VCA/CV_In_10v_A">
+      <node ref="R63" pin="2" pintype="passive"/>
+      <node ref="RV11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/Dual OTA VCA/CV_In_10v_B">
+      <node ref="R68" pin="2" pintype="passive"/>
+      <node ref="RV12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/Dual OTA VCA/ENV_In_A">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="R55" pin="2" pintype="passive"/>
+      <node ref="R73" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pintype="output"/>
+    </net>
+    <net code="15" name="/Dual OTA VCA/ENV_In_B">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="R57" pin="2" pintype="passive"/>
+      <node ref="R71" pin="2" pintype="passive"/>
+      <node ref="U2" pin="14" pintype="output"/>
+    </net>
+    <net code="16" name="/Fastest ADSR in the West/5v_ref">
+      <node ref="REF_ADJ_A1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TP1-(5v)1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/Fastest ADSR in the West/Attack_1_A">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/Fastest ADSR in the West/Attack_1_B">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/Fastest ADSR in the West/Decay_1_A">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="/Fastest ADSR in the West/Decay_1_B">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="RV6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="/Fastest ADSR in the West/Discharge_3_A">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="THR" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="22" name="/Fastest ADSR in the West/Discharge_3_B">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="RV5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="THR" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="23" name="/Fastest ADSR in the West/EG_LED_Anode_A">
+      <node ref="Q9" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="24" name="/Fastest ADSR in the West/EG_LED_Anode_B">
+      <node ref="Q10" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="25" name="/Fastest ADSR in the West/EG_LED_Cathode_A">
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="26" name="/Fastest ADSR in the West/EG_LED_Cathode_B">
+      <node ref="R58" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="27" name="/Fastest ADSR in the West/Env_Out_A">
+      <node ref="J10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="/Fastest ADSR in the West/Env_Out_B">
+      <node ref="J11" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="/Fastest ADSR in the West/Gate_in_A">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/Fastest ADSR in the West/Gate_in_B">
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/Fastest ADSR in the West/InvEnv_Out_A">
+      <node ref="J8" pin="2" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/Fastest ADSR in the West/InvEnv_Out_B">
+      <node ref="J9" pin="2" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/Fastest ADSR in the West/ReTrigger_A">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="J14" pin="2" pintype="passive"/>
+      <node ref="R59" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/Fastest ADSR in the West/ReTrigger_B">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="J15" pin="2" pintype="passive"/>
+      <node ref="R61" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/Fastest ADSR in the West/Release_1_A">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/Fastest ADSR in the West/Release_1_B">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="RV8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/Fastest ADSR in the West/Reset_A">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U5" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U5" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="38" name="/Fastest ADSR in the West/Reset_B">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="R" pintype="input"/>
+    </net>
+    <net code="39" name="/Fastest ADSR in the West/Sustain_1_A">
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="40" name="/Fastest ADSR in the West/Sustain_1_B">
+      <node ref="RV7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="41" name="/Fastest ADSR in the West/Sustain_2_A">
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="42" name="/Fastest ADSR in the West/Sustain_2_B">
+      <node ref="RV7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="43" name="/Fastest ADSR in the West/Sustain_3_A">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="44" name="/Fastest ADSR in the West/Sustain_3_B">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="RV7" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="45" name="/Fastest ADSR in the West/inv_offset_A">
+      <node ref="SW3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="46" name="/Fastest ADSR in the West/inv_offset_B">
+      <node ref="SW4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="47" name="/Power Supply/EuroPower-neg">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="48" name="/Power Supply/EuroPower-pos">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="49" name="GND">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J10" pin="1" pintype="passive"/>
+      <node ref="J11" pin="1" pintype="passive"/>
+      <node ref="J12" pin="1" pintype="passive"/>
+      <node ref="J13" pin="1" pintype="passive"/>
+      <node ref="J14" pin="1" pintype="passive"/>
+      <node ref="J15" pin="1" pintype="passive"/>
+      <node ref="J16" pin="1" pintype="passive"/>
+      <node ref="J17" pin="1" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="R58" pin="2" pintype="passive"/>
+      <node ref="R59" pin="2" pintype="passive"/>
+      <node ref="R60" pin="2" pintype="passive"/>
+      <node ref="R61" pin="2" pintype="passive"/>
+      <node ref="R62" pin="2" pintype="passive"/>
+      <node ref="R72" pin="2" pintype="passive"/>
+      <node ref="R74" pin="2" pintype="passive"/>
+      <node ref="RV10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="SW4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U4" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="FB2" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D5-K)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="58" name="Net-(D6-K)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(D7-K)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="8" pintype="output"/>
+    </net>
+    <net code="61" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D8-K)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(D9-K)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="65" name="Net-(D10-K)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D11-K)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="8" pintype="output"/>
+      <node ref="U2" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(D12-A)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(D12-K)">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U5" pin="14" pintype="output"/>
+    </net>
+    <net code="70" name="Net-(D13-A)">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="U4" pin="1" pintype="output"/>
+    </net>
+    <net code="71" name="Net-(D13-K)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R63" pin="1" pintype="passive"/>
+      <node ref="R66" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(D14-A)">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="U4" pin="8" pintype="output"/>
+    </net>
+    <net code="73" name="Net-(D14-K)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R67" pin="1" pintype="passive"/>
+      <node ref="R68" pin="1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(D15-A)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D15-K)">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(D16-A)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R60" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D17-A)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R62" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D17-K)">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="79" name="Net-(D18-A)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2" pintype="passive"/>
+      <node ref="RV9" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(J13-Pad2)">
+      <node ref="J13" pin="2" pintype="passive"/>
+      <node ref="RV10" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(J16-Pad2)">
+      <node ref="J16" pin="2" pintype="passive"/>
+      <node ref="R65" pin="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(J17-Pad2)">
+      <node ref="J17" pin="2" pintype="passive"/>
+      <node ref="R64" pin="2" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(Q1-C)">
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(Q2-C)">
+      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="TR" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(Q3-B)">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(Q4-C)">
+      <node ref="Q4" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(Q5-B)">
+      <node ref="Q5" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(Q6-C)">
+      <node ref="Q6" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="TR" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(Q7-C)">
+      <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(Q7-E)">
+      <node ref="Q7" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(Q8-C)">
+      <node ref="Q8" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(Q8-E)">
+      <node ref="Q8" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(Q9-B)">
+      <node ref="Q9" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(Q10-B)">
+      <node ref="Q10" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pintype="input"/>
+      <node ref="U4" pin="7" pintype="output"/>
+    </net>
+    <net code="97" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U3" pin="16" pintype="input"/>
+    </net>
+    <net code="98" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="input"/>
+    </net>
+    <net code="99" name="Net-(R43-Pad1)">
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pintype="input"/>
+      <node ref="U4" pin="14" pintype="output"/>
+    </net>
+    <net code="100" name="Net-(R45-Pad1)">
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="output"/>
+    </net>
+    <net code="101" name="Net-(R48-Pad2)">
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="REF_ADJ_A1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(R49-Pad1)">
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="REF_ADJ_A1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(R53-Pad1)">
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pintype="output"/>
+    </net>
+    <net code="104" name="Net-(R64-Pad1)">
+      <node ref="R64" pin="1" pintype="passive"/>
+      <node ref="RV12" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="105" name="Net-(R65-Pad1)">
+      <node ref="R65" pin="1" pintype="passive"/>
+      <node ref="RV11" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="106" name="Net-(R66-Pad2)">
+      <node ref="R66" pin="2" pintype="passive"/>
+      <node ref="R73" pin="1" pintype="passive"/>
+      <node ref="R74" pin="1" pintype="passive"/>
+    </net>
+    <net code="107" name="Net-(R67-Pad2)">
+      <node ref="R67" pin="2" pintype="passive"/>
+      <node ref="R71" pin="1" pintype="passive"/>
+      <node ref="R72" pin="1" pintype="passive"/>
+    </net>
+    <net code="108" name="Net-(R69-Pad1)">
+      <node ref="R69" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pintype="output"/>
+    </net>
+    <net code="109" name="Net-(R70-Pad1)">
+      <node ref="R70" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pintype="output"/>
+    </net>
+    <net code="110" name="Net-(U1A-CV)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="111" name="Net-(U1B-CV)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="112" name="Net-(U2B--)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="113" name="Net-(U2D--)">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="114" name="Net-(U3A-+)">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="115" name="Net-(U3A--)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="116" name="Net-(U3C-+)">
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="117" name="Net-(U3C--)">
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="118" name="Net-(U4B--)">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U3" pin="12" pintype="output"/>
+      <node ref="U4" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="119" name="Net-(U4D--)">
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pintype="output"/>
+      <node ref="U4" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="120" name="Net-(U5A--)">
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="121" name="Net-(U5B--)">
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="122" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(J4-Pad3)">
+      <node ref="J4" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(J6-Pad3)">
+      <node ref="J6" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(J7-Pad3)">
+      <node ref="J7" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(J8-Pad3)">
+      <node ref="J8" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(J9-Pad3)">
+      <node ref="J9" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(J10-Pad3)">
+      <node ref="J10" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(J11-Pad3)">
+      <node ref="J11" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(J12-Pad3)">
+      <node ref="J12" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(J13-Pad3)">
+      <node ref="J13" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(J14-Pad3)">
+      <node ref="J14" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(J15-Pad3)">
+      <node ref="J15" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(J16-Pad3)">
+      <node ref="J16" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(J17-Pad3)">
+      <node ref="J17" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U3A-DIODE_BIAS-Pad15)">
+      <node ref="U3" pin="15" pinfunction="DIODE_BIAS" pintype="input+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U3C-DIODE_BIAS-Pad2)">
+      <node ref="U3" pin="2" pinfunction="DIODE_BIAS" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
